@@ -12,8 +12,8 @@ const YouTubeModal = ({ show, onHide }) => {
       <Modal.Header className="custom-modal-header">
         <Modal.Title>YouTube Video</Modal.Title>
         {/* Close Button with Custom Styling */}
-        <button type="button" className="btn-close custom_button btn-close-white btn-lg" aria-label="Close" onClick={onHide}>
-          ×
+        <button type="button" className="btn-close custom_button" aria-label="Close" onClick={onHide}>
+          
         </button>
       </Modal.Header>
 
